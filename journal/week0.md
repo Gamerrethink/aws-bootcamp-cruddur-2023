@@ -30,4 +30,8 @@ Digital: [Lucid Charts](https://lucid.app/lucidchart/e8d15aeb-03a3-43e4-995b-80f
 
 10. Create Billing Alarm
 
+![billingalarmaws](https://user-images.githubusercontent.com/20970865/219494717-fd546285-869a-44da-a440-ab8f29adbdc3.PNG)
+
 11. Create a Budget
+
+![budgetaws](https://user-images.githubusercontent.com/20970865/219494751-a1416246-856e-44fa-aa54-aa27e97083fa.PNG)
