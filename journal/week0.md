@@ -22,3 +22,11 @@ Digital: [Lucid Charts](https://lucid.app/lucidchart/e8d15aeb-03a3-43e4-995b-80f
 
 7. Use CloudShell
 
+8. Generate AWS Credentials
+
+9. Installed AWS CLI
+![gitpod1](https://user-images.githubusercontent.com/20970865/219440192-4a87abbe-1b09-4d7a-bb27-a6955ba31646.PNG)
+
+10. Create Billing Alarm
+
+11. Create a Budget
