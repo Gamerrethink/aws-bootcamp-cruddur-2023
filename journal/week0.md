@@ -20,7 +20,11 @@ Digital: [Lucid Charts](https://lucid.app/lucidchart/e8d15aeb-03a3-43e4-995b-80f
 
 6. Create Admin User
 
+Already had a root account prior to making an admin user.
+
 7. Use CloudShell
+
+![cloudshellsts](https://user-images.githubusercontent.com/20970865/219497533-9553ab7d-d92c-4366-9260-a396c4ac49b7.PNG)
 
 8. Generate AWS Credentials
 
