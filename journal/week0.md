@@ -59,7 +59,7 @@ Homework Challenges
 - Destroy your root account credentials, Set MFA, IAM role - Completed
 - Use EventBridge to hookup Health Dashboard to SNS and send notification when there is a service health issue.
 - Review all the questions of each pillars in the Well Architected Tool (No specialized lens) - Completed
-- Create an architectural diagram (to the best of your ability) the CI/CD logical pipeline in Lucid Charts - Completed
+- Create an architectural diagram (to the best of your ability) the CI/CD logical pipeline in Lucid Charts - [Completed](https://lucid.app/lucidchart/950d9ac5-f9e8-4406-962d-b5f1e4e2601b/edit?beaconFlowId=4490EB0FEFB8BF7B&invitationId=inv_7ca6fc7a-50b0-430f-9e7e-71670d503dce&page=0_0#)
   <img src="https://user-images.githubusercontent.com/20970865/219716206-193d07d6-0489-4161-95f9-abe93a3bb0fe.PNG" width="600">
 - Research the technical and service limits of specific services and how they could impact the technical path for technical flexibility.
 - Open a support ticket and request a service limit
