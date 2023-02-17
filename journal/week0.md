@@ -28,6 +28,8 @@ Already had a root account prior to making an admin account. Enabled MFA on both
 
 8. Generate AWS Credentials
 
+Generated them for use in the CLI.
+
 9. Installed AWS CLI
 
 Installed it via gitpod
