@@ -34,8 +34,10 @@ Already had a root account prior to making an admin user.
 
 10. Create Billing Alarm
 
-![billingalarmaws](https://user-images.githubusercontent.com/20970865/219494717-fd546285-869a-44da-a440-ab8f29adbdc3.PNG)
+![billingalarmaws](https://user-images.githubusercontent.com/20970865/219521544-d5539c40-aa20-49ef-b2a1-84b0da90bc33.PNG)
+
 
 11. Create a Budget
 
-![budgetaws](https://user-images.githubusercontent.com/20970865/219494751-a1416246-856e-44fa-aa54-aa27e97083fa.PNG)
+![budgetaws](https://user-images.githubusercontent.com/20970865/219521568-b28f446e-a28e-453e-8f29-60b28a07d472.PNG)
+
