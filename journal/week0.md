@@ -57,10 +57,14 @@ Created one sample budget.
 Homework Challenges
 
 - Destroy your root account credentials, Set MFA, IAM role - Completed
-- Use EventBridge to hookup Health Dashboard to SNS and send notification when there is a service health issue - Completed
-- Review all the questions of each pillars in the Well Architected Tool (No specialized lens) - Completed
+- Use EventBridge to hookup Health Dashboard to SNS and send notification when there is a service health issue - Completed 
+  <img src="https://user-images.githubusercontent.com/20970865/219766266-c589cac2-5eed-4461-a092-6dfd60b4b2d6.PNG" width="600">
+- Review all the questions of each pillars in the Well Architected Tool (No specialized lens) - Completed, did all of the questions.
   <img src="https://user-images.githubusercontent.com/20970865/219746141-48981c9d-6f25-4519-91a0-e6676a09cd60.PNG" width="600">
-- Create an architectural diagram (to the best of your ability) the CI/CD logical pipeline in Lucid Charts - [Completed](https://lucid.app/lucidchart/950d9ac5-f9e8-4406-962d-b5f1e4e2601b/edit?beaconFlowId=4490EB0FEFB8BF7B&invitationId=inv_7ca6fc7a-50b0-430f-9e7e-71670d503dce&page=0_0#)
+- Create an architectural diagram (to the best of your ability) the CI/CD logical pipeline in Lucid Charts - [Completed,](https://lucid.app/lucidchart/950d9ac5-f9e8-4406-962d-b5f1e4e2601b/edit?beaconFlowId=4490EB0FEFB8BF7B&invitationId=inv_7ca6fc7a-50b0-430f-9e7e-71670d503dce&page=0_0#)
+          used [this image](https://raw.githubusercontent.com/acantril/learn-cantrill-io-labs/master/aws-codepipeline-catpipeline/02_LABINSTRUCTIONS/catpipeline-arch-stage4.png) for reference.
+          
   <img src="https://user-images.githubusercontent.com/20970865/219716206-193d07d6-0489-4161-95f9-abe93a3bb0fe.PNG" width="600">
 - Research the technical and service limits of specific services and how they could impact the technical path for technical flexibility.
-- Open a support ticket and request a service limit
+- Open a support ticket and request a service limit - Completed, requested a service limit for EventBridge
+  <img src="https://user-images.githubusercontent.com/20970865/219763009-c444b70b-2406-46a2-b187-920833a4e79e.PNG" width="600">
