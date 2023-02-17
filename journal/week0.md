@@ -1,22 +1,25 @@
 # Week 0 — Billing and Architecture
 
-1. Watched Week 0 - Live Streamed Video
+1. [Watched Week 0 - Live Streamed Video](https://www.youtube.com/watch?v=SG8blanhAOg&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=12)
 
-2. Watched Chirag's Week 0 - Spend Considerations	
+2. [Watched Chirag's Week 0 - Spend Considerations](https://www.youtube.com/watch?v=OVw3RrlP-sI&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=13)
 
-3. Watched Ashish's Week 0 - Security Considerations
+3. [Watched Ashish's Week 0 - Security Considerations](https://www.youtube.com/watch?v=4EMWBYVggQI&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=15)
+
 
 4. Cruddur Conceptual Diagram
 
 Napkin:
-![image](https://user-images.githubusercontent.com/20970865/219132185-aaed0b6b-48a6-447b-8562-0c2a4427fdee.png)
+
+<img src="https://user-images.githubusercontent.com/20970865/219132185-aaed0b6b-48a6-447b-8562-0c2a4427fdee.png" width="600">
  
 Digital: [Lucid Charts](https://lucid.app/lucidchart/e8d15aeb-03a3-43e4-995b-80fd7c7a81b2/edit?invitationId=inv_213bb306-f3e1-4672-91c3-6b59d3e53874&page=0_0#)
-![digitalchartlucid](https://user-images.githubusercontent.com/20970865/219132946-522055fc-a13c-47bf-95b1-34c5b55df973.PNG)
+
+<img src="https://user-images.githubusercontent.com/20970865/219132946-522055fc-a13c-47bf-95b1-34c5b55df973.PNG" width="800">
 
 5. Cruddur Logical Diagram [Lucid Charts](https://lucid.app/lucidchart/58f8718e-60e1-4d51-9370-0f012dce6c20/edit?beaconFlowId=60CF032ACD2A333E&invitationId=inv_3d8eee70-0637-4958-aa89-9e37fe14b43a&page=0_0#)
 
-![logical chart cruddur](https://user-images.githubusercontent.com/20970865/219141304-a23defc4-8fa9-437c-9f12-626976f890e5.PNG)
+<img src="https://user-images.githubusercontent.com/20970865/219141304-a23defc4-8fa9-437c-9f12-626976f890e5.PNG" width="700">
 
 6. Create Admin User
 
@@ -40,12 +43,12 @@ Installed it via gitpod
 
 Followed the instructions in [Chirag's Week 0 video](https://www.youtube.com/watch?v=OVw3RrlP-sI&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=13)
 
-![billingalarmaws](https://user-images.githubusercontent.com/20970865/219521544-d5539c40-aa20-49ef-b2a1-84b0da90bc33.PNG)
+<img src="https://user-images.githubusercontent.com/20970865/219521544-d5539c40-aa20-49ef-b2a1-84b0da90bc33.PNG" width="700">
 
 
 11. Create a Budget
 
 Created one sample budget.
 
-![budgetaws](https://user-images.githubusercontent.com/20970865/219521568-b28f446e-a28e-453e-8f29-60b28a07d472.PNG)
+<img src="https://user-images.githubusercontent.com/20970865/219521568-b28f446e-a28e-453e-8f29-60b28a07d472.PNG" width="700">
 
