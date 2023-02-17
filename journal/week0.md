@@ -20,7 +20,7 @@ Digital: [Lucid Charts](https://lucid.app/lucidchart/e8d15aeb-03a3-43e4-995b-80f
 
 6. Create Admin User
 
-Already had a root account prior to making an admin user.
+Already had a root account prior to making an admin account. Enabled MFA on both accounts.
 
 7. Use CloudShell
 
@@ -30,14 +30,20 @@ Already had a root account prior to making an admin user.
 
 9. Installed AWS CLI
 
+Installed it via gitpod
+
 ![gitpod1](https://user-images.githubusercontent.com/20970865/219440192-4a87abbe-1b09-4d7a-bb27-a6955ba31646.PNG)
 
 10. Create Billing Alarm
+
+Followed the instructions in [Chirag's Week 0 video](https://www.youtube.com/watch?v=OVw3RrlP-sI&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=13)
 
 ![billingalarmaws](https://user-images.githubusercontent.com/20970865/219521544-d5539c40-aa20-49ef-b2a1-84b0da90bc33.PNG)
 
 
 11. Create a Budget
+
+Created one sample budget.
 
 ![budgetaws](https://user-images.githubusercontent.com/20970865/219521568-b28f446e-a28e-453e-8f29-60b28a07d472.PNG)
 
