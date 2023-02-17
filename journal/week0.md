@@ -56,7 +56,7 @@ Created one sample budget.
 
 Homework Challenges
 
-- Destroy your root account credentials, Set MFA, IAM role - Completed
+- Destroy your root account credentials, Set MFA, IAM role - Completed, see the "Create Admin User" section for more.
 - Use EventBridge to hookup Health Dashboard to SNS and send notification when there is a service health issue - Completed 
   <img src="https://user-images.githubusercontent.com/20970865/219766266-c589cac2-5eed-4461-a092-6dfd60b4b2d6.PNG" width="600">
 - Review all the questions of each pillars in the Well Architected Tool (No specialized lens) - Completed, did all of the questions.
@@ -65,6 +65,6 @@ Homework Challenges
           used [this image](https://raw.githubusercontent.com/acantril/learn-cantrill-io-labs/master/aws-codepipeline-catpipeline/02_LABINSTRUCTIONS/catpipeline-arch-stage4.png) for reference.
           
   <img src="https://user-images.githubusercontent.com/20970865/219716206-193d07d6-0489-4161-95f9-abe93a3bb0fe.PNG" width="600">
-- Research the technical and service limits of specific services and how they could impact the technical path for technical flexibility.
+- Research the technical and service limits of specific services and how they could impact the technical path for technical flexibility - Completed, researched the service limits of EventBridge, CloudShell, AWS IAM, CloudTrail, CloudWatch, and Well-Architected Tool.
 - Open a support ticket and request a service limit - Completed, requested a service limit for EventBridge
   <img src="https://user-images.githubusercontent.com/20970865/219763009-c444b70b-2406-46a2-b187-920833a4e79e.PNG" width="600">
