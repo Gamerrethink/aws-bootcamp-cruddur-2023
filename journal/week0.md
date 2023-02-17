@@ -25,6 +25,8 @@ Digital: [Lucid Charts](https://lucid.app/lucidchart/e8d15aeb-03a3-43e4-995b-80f
 
 Already had a root account prior to making an admin account. Enabled MFA on both accounts.
 
+Homework Challenge: destroyed my root account credentials by resetting the password.
+
 7. Use CloudShell
 
 ![cloudshellsts](https://user-images.githubusercontent.com/20970865/219497533-9553ab7d-d92c-4366-9260-a396c4ac49b7.PNG)
@@ -54,7 +56,7 @@ Created one sample budget.
 
 Homework Challenges
 
-- Destroy your root account credentials, Set MFA, IAM role
+- Destroy your root account credentials, Set MFA, IAM role - Completed
 - Use EventBridge to hookup Health Dashboard to SNS and send notification when there is a service health issue.
 - Review all the questions of each pillars in the Well Architected Tool (No specialized lens)
 - Create an architectural diagram (to the best of your ability) the CI/CD logical pipeline in Lucid Charts
