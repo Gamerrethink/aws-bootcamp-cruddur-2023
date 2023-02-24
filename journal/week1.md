@@ -17,3 +17,13 @@
 7. Containerize Application (Dockerfiles, Docker Compose)
 
    Containerized my application during the livestream. The first time I tried containerizing the app, it didn't work. It took retracing my steps to realize I forgot        to put in the enviorment variables.
+   
+8. Document the Notification Endpoint for the OpenAI Document	
+
+9. Write a Flask Backend Endpoint for Notifications	
+
+10. Write a React Page for Notifications	
+
+11. Run DynamoDB Local Container and ensure it works	
+
+12. Run Postgres Container and ensure it works	
