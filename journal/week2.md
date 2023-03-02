@@ -20,9 +20,13 @@ Integrated AWS CloudWatch logs into the Cruddur application. Files: [home activi
 
 <img src="https://user-images.githubusercontent.com/20970865/222496797-f7880d62-9720-4221-81e3-e48fbc4a6111.PNG" width="600">
 
+6. [Instrumented Rollerbar](https://www.youtube.com/watch?v=xMBDAb5SEU4&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=35)
 
+Instrumented Rollbar into the Cruddur app. Files: [app.py](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-2/backend-flask/app.py), [requirements.txt](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-2/backend-flask/requirements.txt), and [docker-compose.yml](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-2/docker-compose.yml).
 
-Homework Stretch Assignments
+<img src="https://user-images.githubusercontent.com/20970865/222561987-2b44ed34-1039-4086-9241-9dc36fb2b7bd.PNG" width="800">
+
+**Homework Stretch Assignments**
 
 - Added a custom span "home-activities..." for home activities. Reference "#Honeycomb" in the [home activities](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-2/backend-flask/services/home_activities.py) file. 
 
