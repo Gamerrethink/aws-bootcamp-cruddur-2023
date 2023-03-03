@@ -32,3 +32,5 @@ Updated [docker-compose.yml](https://github.com/Gamerrethink/aws-bootcamp-cruddu
 Homework Challenges
 
 May need some more time to work on these. Updates for these challenges will be ongoing.
+
+3/3/2023 Update - Did the "Run the dockerfile CMD as an external script" stretch assignment. Files: [docker_script.sh](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-2/backend-flask/docker_script.sh) and [dockerfile](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-2/backend-flask/dockerfile).
