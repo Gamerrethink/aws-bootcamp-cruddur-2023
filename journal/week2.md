@@ -36,3 +36,5 @@ Instrumented Rollbar into the Cruddur app. Files: [app.py](https://github.com/Ga
 
 - Also added two attributes to the custom span (app.now = time stamp and app.result_length)
 
+- Ran custom queries in Honeycomb.
+<img src="https://user-images.githubusercontent.com/20970865/222808342-7d9097c5-a929-4fa6-9954-14e9174dac2b.PNG" width="800">
