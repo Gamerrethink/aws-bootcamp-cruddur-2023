@@ -32,3 +32,5 @@ Updated [docker-compose.yml](https://github.com/Gamerrethink/aws-bootcamp-cruddu
 Homework Challenges
 
 May need some more time to work on these. Updates for these challenges will be ongoing.
+
+- Update 3/3/2023 did the "Run the dockerfile CMD as an external script" assignment.
