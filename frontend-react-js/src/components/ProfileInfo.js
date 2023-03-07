@@ -3,7 +3,6 @@ import {ReactComponent as ElipsesIcon} from './svg/elipses.svg';
 import React from "react";
 
 // [TODO] Authenication
-//import Cookies from 'js-cookie'
 import { Auth } from 'aws-amplify'; //AWS Cognito
 
 export default function ProfileInfo(props) {
@@ -12,29 +11,17 @@ export default function ProfileInfo(props) {
   const click_pop = (event) => {
     setPopped(!popped)
   }
-  /* Repalcing with aws congnito
-  const signOut = async () => {
-    console.log('signOut')
-    // [TODO] Authenication
-    Cookies.remove('user.logged_in')
-    //Cookies.remove('user.name')
-    //Cookies.remove('user.username')
-    //Cookies.remove('user.email')
-    //Cookies.remove('user.password')
-    //Cookies.remove('user.confirmation_code')
-    window.location.href = "/"
-  } */
 
-/*AWS Cognito*/
   const signOut = async () => {
     try {
         await Auth.signOut({ global: true });
         window.location.href = "/"
+        localStorage.removeItem("access_token")
     } catch (error) {
         console.log('error signing out: ', error);
     }
   }
-
+//AWS Cognito
   const classes = () => {
     let classes = ["profile-info-wrapper"];
     if (popped == true){

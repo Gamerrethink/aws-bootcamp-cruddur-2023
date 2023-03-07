@@ -4,19 +4,20 @@ import {ReactComponent as Logo} from '../components/svg/logo.svg';
 import { Link } from "react-router-dom";
 
 // [TODO] Authenication
-import { Auth } from 'aws-amplify';
+import { Auth } from 'aws-amplify'; // AWS Cognito
 
 export default function SigninPage() {
 
   const [email, setEmail] = React.useState(''); //removed for aws cogito
   const [password, setPassword] = React.useState(''); //removed for aws cogito
   const [errors, setErrors] = React.useState(''); 
-
+// AWS Cognito
   const onsubmit = async (event) => {
-    setCognitoErrors('')
+    setErrors('')
     event.preventDefault();
     Auth.signIn(email, password)
       .then(user => {
+        console.log('user',user)
         localStorage.setItem("access_token", user.signInUserSession.accessToken.jwtToken)
         window.location.href = "/"
       })
@@ -24,7 +25,7 @@ export default function SigninPage() {
       if (error.code == 'UserNotConfirmedException') {
         window.location.href = "/confirm"
       }
-      setCognitoErrors(error.message)
+      setErrors(error.message)
     });
     return false
   }
