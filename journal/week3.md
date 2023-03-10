@@ -24,8 +24,22 @@ Implemented a custom signin page leveraging AWS Cognito. Tested and confirmed lo
 
 Implemented a custom signup page. Tested and confirmed signup and login. Files changed: [ConfirmationPage.js](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-3/frontend-react-js/src/pages/ConfirmationPage.js), [SignupPage.js](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-3/frontend-react-js/src/pages/SignupPage.js), [docker-compose.yml](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-3/docker-compose.yml) and other files reflected in this journal.
 
+<img src="https://user-images.githubusercontent.com/20970865/224412439-fb0ea01e-3e2d-4b67-aac2-7ba0f35c912d.PNG" width="850">
+
 8. Implement Custom Recovery Page	
 
 Implemented a custom recovery page Fileschanged: [ConfirmationPage.js](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-3/frontend-react-js/src/pages/ConfirmationPage.js) and [RecoveryPage.js](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-3/frontend-react-js/src/pages/RecoverPage.js). Tested and confirmed login with new password.
+
+<img src="https://user-images.githubusercontent.com/20970865/224412453-c0ac3f54-4928-4e15-b412-29f2c8e3e643.PNG" width="850">
+
+Implement Server Side Verifications with JSON Web Tokens
+
+Implemented user authentication using JSON Web Token on the backend as detailed in [Andrew's Week 3 Congito JWT Server side Verify](https://www.youtube.com/watch?v=d079jccoG-M&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=42) video. Created a token file. Files changed: [home_activities.py](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/main/backend-flask/services/home_activities.py), [docker-compose.yml](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-3/docker-compose.yml) and etc. as relfected in this very journal.
+
+Homework Challenges:
+
+Implemented UI changes (This is not listed in either the Course Outline or the Student Portal Checklist)
+
+Implemented UI chages using CSS as detailed in [Andrew's Week 3 Improving UI Contrast and Implementing CSS Variables for Theming](https://www.youtube.com/watch?v=m9V4SmJWoJU&list=WL&index=5&t=72s) video.
 
 NOTE: Watched the [Week 2 X-Ray Subsegments Solved](https://www.youtube.com/watch?v=4SGTW0Db5y0&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=38) video as it was added after I submitted my Week 2 homework summary. Made and tested the suggested changes succesfully.
