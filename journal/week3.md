@@ -36,7 +36,7 @@ Implement Server Side Verifications with JSON Web Tokens
 
 Implemented user authentication using JSON Web Token on the backend as detailed in [Andrew's Week 3 Congito JWT Server side Verify](https://www.youtube.com/watch?v=d079jccoG-M&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=42) video. Created a token file. Files changed: [home_activities.py](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/main/backend-flask/services/home_activities.py), [docker-compose.yml](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-3/docker-compose.yml) and etc. as relfected in this very journal.
 
-Homework Challenges:
+Homework Strech Assignments:
 
 Implemented UI changes (This is not listed in either the Course Outline or the Student Portal Checklist)
 
