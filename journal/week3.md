@@ -1,5 +1,7 @@
 # Week 3 — Decentralized Authentication
 
+The following information outlines tasks that I've completed for Week 3 of the AWS bootcamp.
+
 1. [Attended the Livestream](https://www.youtube.com/watch?v=9obl7rVgzJw&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=40)
 
 2. [Watched Ashish's Week 3 - Decenteralized Authentication video](https://www.youtube.com/watch?v=tEJIeII66pY&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=39)
