@@ -27,7 +27,7 @@ Succesfully connected to AWS RDS from Gitpod. Created the [rds-update-sg-rule](h
 
 7. Created Congito Trigger to insert user into database	
 
-Created the "cruddur-post-confirmation" Lamda function. Also, when adding a layer, please make sure that you're using the proper ARN for your region. To test that the Lambda function is working, the account needs to be removed from the Cruddur user pool via AWS Cognito and then recreated via Cruddur.
+Created the "cruddur-post-confirmation" Lamda function. Also, when adding a [Lambda layer](https://github.com/jetbridge/psycopg2-lambda-layer), please make sure that you're using the proper ARN for your region. To test that the Lambda function is working, the account needs to be removed from the Cruddur user pool via AWS Cognito and then recreated via Cruddur.
 
 <img src="https://user-images.githubusercontent.com/20970865/225892292-e8f30d42-17b5-48b4-9226-3f7c8ad5b91b.PNG" width=650>
 
