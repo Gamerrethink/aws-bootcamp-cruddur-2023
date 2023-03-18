@@ -32,3 +32,5 @@ Created the "cruddur-post-confirmation" Lamda function. Also, when adding a [Lam
 <img src="https://user-images.githubusercontent.com/20970865/225892292-e8f30d42-17b5-48b4-9226-3f7c8ad5b91b.PNG" width=650>
 
 8. Created new activities with a database insert	
+
+Sucessfully managed to post a Crud into the AWS database. Files altered: [db.py](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-4-activities/backend-flask/lib/db.py), [create_activity.py](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-4-activities/backend-flask/services/create_activity.py), [home_activity.py](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-4-activities/backend-flask/services/home_activities.py), [app.py](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-4-activities/backend-flask/app.py) and [cruddur-post-confirmation.py](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-4-activities/aws/lambdas/cruddur-post-confirmation.py)
