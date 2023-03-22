@@ -34,10 +34,10 @@ def get_user_uuids():
         )
   """
   users = db.query_array_json(sql,{
-    'my_handle':  'awsbootcamp', #changing to match query with prod cognito user
+    'my_handle':  'andrewbrown', #changing to match query with prod cognito user
     'other_handle': 'bayko'
   })
-  my_user    = next((item for item in users if item["handle"] == 'awsbootcamp'), None) #changing to match query with prod cognito user
+  my_user    = next((item for item in users if item["handle"] == 'andrewbrown'), None) #changing to match query with prod cognito user
   other_user = next((item for item in users if item["handle"] == 'bayko'), None)
   results = {
     'my_user': my_user,
