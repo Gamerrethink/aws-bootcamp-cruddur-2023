@@ -32,8 +32,7 @@ class Ddb:
     # query the table
     response = client.query(**query_params)
     items = response['Items']
-    
-    print("items::",items)
+    items.reverse()
     results = []
     for item in items:
       last_sent_at = item['sk']['S']
