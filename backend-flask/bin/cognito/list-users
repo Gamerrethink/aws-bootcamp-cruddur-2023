@@ -25,4 +25,4 @@ for user in users:
   handle = next((a for a in attrs if a["Name"] == 'preferred_username'), None)
   dict_users[handle['Value']] = sub['Value']
 
-print(dict_users)
+print(json.dumps(dict_users, sort_keys=True, indent=2, default=str))
