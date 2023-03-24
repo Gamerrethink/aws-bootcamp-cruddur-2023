@@ -44,7 +44,7 @@ Altering line 233 in [/bin/ddb/seed](https://github.com/Gamerrethink/aws-bootcam
 
 10. **Implement (Pattern D) Creating a Message for a new Message Group into Application**	
 
-Was able to successfully implement this pattern with no errors after some troubleshooting.
+Was able to successfully implement this pattern with no errors after some troubleshooting and was able to create a new message in the Londo message group.
 
 11. **Implement (Pattern E) Updating a Message Group using DynamoDB Streams**	
 
