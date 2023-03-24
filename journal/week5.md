@@ -32,7 +32,7 @@ This one took nearly three days worth of troubleshooting, which at first was see
 
 8. **Implement (Pattern B) Listing Messages Group into Application**	
 
-Same as the above in regards to troubleshooting, except I also had to deal with a 500 error popping up in the Chrome console. I eventually got this pattern working as well.
+Same as the above in regards to troubleshooting, except I also had to deal with a 500 error popping up in the Chrome console related to message-groups. I eventually got this pattern working as well.
 
 9. **Implement (Pattern C) Creating a Message for an existing Message Group into Application**
 
