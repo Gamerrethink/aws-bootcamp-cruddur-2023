@@ -1,4 +1,4 @@
-# Week 5 — DynamoDB and Serverless Caching
+# Week 5 — DynamoDB and Serverless Caching (HELL WEEK)
 
 The following information outlines tasks that I've completed for Week 5 of the AWS bootcamp.
 
