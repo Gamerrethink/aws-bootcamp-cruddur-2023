@@ -48,7 +48,7 @@ Was able to successfully implement this pattern with no errors after some troubl
 
 11. **Implement (Pattern E) Updating a Message Group using DynamoDB Streams**	
 
-Created a cruddur-messaging-stream lambda in AWS along with the DynamoDB table cruddur-messages. Follwed along with **[Andrew's video](https://www.youtube.com/watch?v=zGnzM_YdMJU&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=55)** and was able to implement the pattern successfully.
+Created a cruddur-messaging-stream lambda in AWS along with the DynamoDB table cruddur-messages. Follwed along with [Andrew's video](https://www.youtube.com/watch?v=zGnzM_YdMJU&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=55) and was able to implement the pattern successfully.
 
 <img src="https://user-images.githubusercontent.com/20970865/227585641-36af4fc9-dc90-4f17-aa06-659ae82eb9ec.PNG" width=750>
 
