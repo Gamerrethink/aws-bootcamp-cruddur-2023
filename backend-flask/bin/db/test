@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# For testing RDS connection / health checks of connection from inside the container
 
 import psycopg
 import os
