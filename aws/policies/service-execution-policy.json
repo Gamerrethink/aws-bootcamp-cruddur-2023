@@ -6,13 +6,5 @@
       "Principal":{
         "Service":["ecs-tasks.amazonaws.com"]
       }
-},{
-    "Sid": "VisualEditor0",
-    "Effect": "Allow",
-    "Action": [
-      "ssm:GetParameters",
-      "ssm:GetParameter"
-    ],
-    "Resource": "arn:aws:ssm:us-east-1:774490141131:parameter/cruddur/backend-flask/*"
   }]
     }
