@@ -3,13 +3,24 @@
     "executionRoleArn": "arn:aws:iam::774490141131:role/CruddurServiceExecutionRole",
     "taskRoleArn": "arn:aws:iam::774490141131:role/CruddurTaskRole",
     "networkMode": "awsvpc",
+    "requiresCompatibilities": [ 
+      "FARGATE" 
+    ],
     "containerDefinitions": [
       {
         "name": "backend-flask",
-        "image": "774490141131.dkr.ecr.us-east-1.amazonaws.com/backend-flask",
-        "cpu": 256,
-        "memory": 512,
+        "image": "387543059434.dkr.ecr.ca-central-1.amazonaws.com/backend-flask",
         "essential": true,
+        "healthCheck": {
+          "command": [
+            "CMD-SHELL",
+            "python /backend-flask/bin/flask/health-check"
+          ],
+          "interval": 30,
+          "timeout": 5,
+          "retries": 3,
+          "startPeriod": 60
+        },
         "portMappings": [
           {
             "name": "backend-flask",
@@ -22,7 +33,7 @@
           "logDriver": "awslogs",
           "options": {
               "awslogs-group": "cruddur",
-              "awslogs-region": "us-east-1",
+              "awslogs-region": "ca-central-1",
               "awslogs-stream-prefix": "backend-flask"
           }
         },
