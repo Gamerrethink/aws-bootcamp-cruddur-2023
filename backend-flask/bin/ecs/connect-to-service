@@ -14,7 +14,7 @@ CONTAINER_NAME=$2
 aws ecs execute-command \
 --region $AWS_DEFAULT_REGION \
 --cluster cruddur \
---task TASK_ID \
+--task $TASK_ID \
 --container CONTAINER_NAME \
 --command "/bin/bash" \
 --interactive
