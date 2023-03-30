@@ -11,6 +11,9 @@ if [ -z "$2" ]; then
 fi
 CONTAINER_NAME=$2
 
+echo "TASK ID : $TASK_ID"
+echo "Container Name: $CONTAINER_NAME"
+
 aws ecs execute-command \
 --region $AWS_DEFAULT_REGION \
 --cluster cruddur \
