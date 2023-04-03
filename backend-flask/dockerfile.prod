@@ -20,13 +20,12 @@ COPY . .
 
 # Set Enviornment Variables (Env Vars)
 # Inside Container and will remain set when the container is running
-
 EXPOSE ${PORT}
 
 # CMD (Command)
 # python3 -m flask run --host=0.0.0.0 --port=4567
-# CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=4567"]
+CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=4567", "--no-debug", "--no-debugger", "--no-reload"]
 
 ## These commands will run the CMD from and external script named "external_script"
-RUN chmod +x docker_script.sh
-CMD ["./docker_script.sh"]
+#RUN chmod +x docker_script.sh
+#CMD ["./docker_script.sh"]
