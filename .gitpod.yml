@@ -25,7 +25,7 @@ tasks:
        sudo apt install -y postgresql-client-13 libpq-dev
       command: |
         export GITPOD_IP=$(curl ifconfig.me)
-        source  "$THEIA_WORKSPACE_ROOT/backend-flask/bin/rds/update-sg-rule"
+        source  "$THEIA_WORKSPACE_ROOT/bin/rds/update-sg-rule"
     - name: fargate
       before: |
         curl "https://s3.amazonaws.com/session-manager-downloads/plugin/latest/ubuntu_64bit/session-manager-plugin.deb" -o "session-manager-plugin.deb"
