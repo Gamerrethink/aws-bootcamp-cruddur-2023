@@ -1,8 +1,17 @@
 #! /usr/bin/bash
 
-PARENT_DIR="$(dirname "$(dirname "$ABS_PATH")")
+
 ABS_PATH=$(readlink -f "$0")
+BUILD_PATH=$(dirname $ABS_PATH)
+DOCKER_PATH=$(dirname $BUILD_PATH)
+BIN_PATH=$(dirname $DOCKER_PATH)
+BACKEND_FLASK_PATH=$(dirname $BIN_PATH)
+PROJECT_PATH=$(dirname $BACKEND_FLASK_PATH)
 echo $ABS_PATH
+echo $BUILD_PATH
+echo $BIN_PATH
+echo $BACKEND_FLASK_PATH
+echo $PROJECT_PATH
 #docker build \
 #--build-arg REACT_APP_BACKEND_URL="https://4567-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}" \
 #--build-arg REACT_APP_AWS_PROJECT_REGION="$AWS_DEFAULT_REGION" \
