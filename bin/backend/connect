@@ -1,6 +1,6 @@
 #! /usr/bin/bash
 if [ -z "$1" ]; then
-  echo "No TABLE_NAME argument supplied eg. ./bin/ecs/connect-to-backend-flask ea8dd2c519d847da89ced1aa67898d4c backend-flask"
+  echo "No TABLE_NAME argument supplied eg. ./bin/ecs/connect-to-backend-flask 172a260a702147869f4e8978274869ed backend-flask"
   exit 1
 fi
 TASK_ID=$1
