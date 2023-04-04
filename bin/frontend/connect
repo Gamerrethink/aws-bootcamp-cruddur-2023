@@ -1,6 +1,6 @@
 #! /usr/bin/bash
 if [ -z "$1" ]; then
-  echo "No TABLE_NAME argument supplied eg. ./bin/ecs/connect-to-frontend-react-js da38cd7e48e44a649a8031d15146a2a4 frontend-react-js"
+  echo "No TABLE_NAME argument supplied eg. ./bin/ecs/connect-to-frontend-react-js b8aa2fa0aa9c47e6b1d7dfbc3b90a7cf frontend-react-js"
   exit 1
 fi
 TASK_ID=$1
