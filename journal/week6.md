@@ -23,6 +23,31 @@ aws ecs create-cluster \
 --cluster-name cruddur \
 --service-connect-defaults namespace=cruddur
 
+For the Fargate ECS cluster I created three repositories and pushed three images (Base, Flask Backend, React Frontend). I also managed to signed into ECR from Gitpod using aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin "$AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com".
+
+I also created a base repository using the following code below:
+
+aws ecr create-repository \
+ --repository-name cruddur-python \
+ --image-tag-mutability MUTABLE
+
+I also created the Flask Backend repository using the following code below:
+
+aws ecr create-repository \
+ --repository-name backend-flask \
+ --image-tag-mutability MUTABLE
+
+Alongside setting the path using this code below:
+
+export ECR_BACKEND_FLASK_URL="$AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/backend-flask"
+echo $ECR_BACKEND_FLASK_URL
+
+Created a new directory and file titled aws/task-definitions/backend-flask.json
+
+I also set the Parameters for AWS Systems Manager Parameter Store.
+
+
+
 
 
 
