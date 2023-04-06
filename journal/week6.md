@@ -119,9 +119,24 @@ aws ecs execute-command  \
 --command "/bin/bash" \
 --interactive
 ```
+After doing that, I ran the backend-flask image stored at AWS ECS via the public IP Address and ran a health-check which worked. I also ran the frontend-react-js image stored at AWS ECS via the DNS address which also worked.
 
+Later, I setup the Load Balancing by creating an application Load Balancer via the "Load balancers" area in EC2, alongside creating the security group cruddur-alb-sg which I later added to the existing crud-srv-sg security group. Also created target groups for ports 4567 and 3000.
 
+I then configured a custom domain via the Hosted Zones section of Route 53, creating two A records in the proccess: one for `your-domain` and the second for `api.your-domain`. I visited the frontend afterward, which functioned properly, data and all.
 
+<img src=https://user-images.githubusercontent.com/20970865/230489644-f0de14ef-d40e-4ba2-8f08-2d93f687c908.PNG width=600>
 
+4. Secured Flask by running the app with and without debug mode	
 
+5. Refactored the bin directory to be top level	alongside renaming multiple files.
 
+6. Fixed Messaging in Production by connecting to AWS RDS production database, updating the paths in the seed files and seeding the Bayko data from seed.sql into the production database.
+
+7. Implemented the Refresh Token for Amazon Cognito by updating the [CheckAuth.js](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-6-timezones/frontend-react-js/src/lib/CheckAuth.js) file and updating mutiple front end files to reflect the changes.
+
+8. Activated Container Insights on the ECS Cluster alongside restructuring the environmental variables, and implementing ruby. Ruby files: [bin/frontend/generate-env](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-6-timezones/bin/frontend/generate-env) [bin/backend/generate-env](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-6-timezones/bin/backend/generate-env)
+
+9. Watched the [Week 6-7: Guest Instructor Maish, Fargate Technical Questions video](https://www.youtube.com/watch?v=w_YcwJxvoHQ&t=375s). 
+
+Fixed the timezone implementing issues by following the instructions in [Andrew's video](https://www.youtube.com/watch?v=g21EZ54c8iw).
