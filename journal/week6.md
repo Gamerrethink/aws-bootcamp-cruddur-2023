@@ -50,8 +50,75 @@ Created a new directory and file titled aws/task-definitions/backend-flask.json
 
 Set the Parameters for AWS Systems Manager Parameter Store.
 
+I also created the IAM Roles CruddurServiceExecutionRole and CruddurTaskRole using the following codes below:
+```
+aws iam create-role \
+    --role-name CruddurServiceExecutionRole \
+    --assume-role-policy-document "{
+  \"Version\":\"2012-10-17\",
+  \"Statement\":[{
+    \"Action\":[\"sts:AssumeRole\"],
+    \"Effect\":\"Allow\",
+    \"Principal\":{
+      \"Service\":[\"ecs-tasks.amazonaws.com\"]
+    }
+  }]
+}"
+```
+```
+aws iam create-role \
+    --role-name CruddurTaskRole \
+    --assume-role-policy-document "{
+  \"Version\":\"2012-10-17\",
+  \"Statement\":[{
+    \"Action\":[\"sts:AssumeRole\"],
+    \"Effect\":\"Allow\",
+    \"Principal\":{
+      \"Service\":[\"ecs-tasks.amazonaws.com\"]
+    }
+  }]
+}"
+```
 
+Also created the SSMAccess policy and attatched it to CruddurTaskRole using the following code below in addition to atattching the CloudWatchFullAccess and AWSXRayDaemonWriteAccess policies:
+```
+aws iam put-role-policy \
+  --policy-name SSMAccessPolicy \
+  --role-name CruddurTaskRole \
+  --policy-document "{
+  \"Version\":\"2012-10-17\",
+  \"Statement\":[{
+    \"Action\":[
+      \"ssmmessages:CreateControlChannel\",
+      \"ssmmessages:CreateDataChannel\",
+      \"ssmmessages:OpenControlChannel\",
+      \"ssmmessages:OpenDataChannel\"
+    ],
+    \"Effect\":\"Allow\",
+    \"Resource\":\"*\"
+  }]
+}
+```
+```
+aws iam attach-role-policy --policy-arn arn:aws:iam::aws:policy/CloudWatchFullAccess --role-name CruddurTaskRole
+aws iam attach-role-policy --policy-arn arn:aws:iam::aws:policy/AWSXRayDaemonWriteAccess --role-name CruddurTaskRole
+```
+I also registered the tasks definitions, set the Default VPC and created a Security Group called crud-srv-sg.
 
+After that, I created a backend-flask container in my ECS cluster:
+
+<img src="https://user-images.githubusercontent.com/20970865/230449456-28726baa-09e1-4a38-b195-cceaa3b0cc56.PNG" width=600>
+
+After creating the service-backend-flask.json file in the aws/json folder, populating it with the appropriate security groups and subnets and installing the Session Manager Plugin, I successfully connected to the backend container via the following code below:
+```
+aws ecs execute-command  \
+--region $AWS_DEFAULT_REGION \
+--cluster cruddur \
+--task [your aws ecs container task arn here] \
+--container backend-flask \
+--command "/bin/bash" \
+--interactive
+```
 
 
 
