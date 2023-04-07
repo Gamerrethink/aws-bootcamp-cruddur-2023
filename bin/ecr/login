@@ -1,0 +1,3 @@
+#! /usr/bin/bash
+
+aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin "774490141131.dkr.ecr.us-east-1.amazonaws.com"

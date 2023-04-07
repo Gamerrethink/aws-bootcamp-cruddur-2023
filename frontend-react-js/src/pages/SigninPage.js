@@ -31,7 +31,7 @@ export default function SigninPage() {
   }
     
   // just before submit component
-  {errors}
+ 
 
   /* Removed for AWS Cognito
   const onsubmit = async (event) => {

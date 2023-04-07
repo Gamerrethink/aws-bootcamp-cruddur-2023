@@ -60,3 +60,8 @@ background: rgba(255,255,255,0.08)
   font-size: 16px;
   margin-top: 8px;
 }
+
+.messsage_item .avatar{
+  cursor: pointer;
+  text-decoration: none;
+}

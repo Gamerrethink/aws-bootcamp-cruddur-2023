@@ -1,0 +1,6 @@
+#! /usr/bin/bash
+
+ECR_FRONTEND_REACT_URL="774490141131.dkr.ecr.us-east-1.amazonaws.com/frontend-react-js"
+echo $ECR_FRONTEND_REACT_URL
+docker tag frontend-react-js:latest $ECR_FRONTEND_REACT_URL:latest
+docker push $ECR_FRONTEND_REACT_URL:latest
