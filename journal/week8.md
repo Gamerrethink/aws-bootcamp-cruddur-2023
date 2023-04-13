@@ -8,4 +8,4 @@ The following information outlines tasks that I've completed for Week 8 of the A
 
 I configured the env vars, the s3 bucket and permissions, the lambda, and the SNS. I also setup CloudFront to log the image process.
 
-3. Implemented the Users Profile Page by following Andrew's instructions in [this video](https://www.youtube.com/watch?v=WdVPx-LLjQ8&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=73&pp=iAQB).
+3. **[Implemented the Users Profile Page](https://www.youtube.com/watch?v=WdVPx-LLjQ8&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=73&pp=iAQB)** by following Andrew's instructions in the linked video.
