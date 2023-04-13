@@ -13,7 +13,7 @@ export default function ProfileForm(props) {
     setDisplayName(props.profile.display_name);
   }, [props.profile])
 
-  const s3upload = async (event)=> {
+  const s3uploadkey = async (event)=> {
     try {
       console.log('s3upload')
       const backend_url = "https://xdlb2qo8vb.execute-api.us-east-1.amazonaws.com/avatars/key_upload"
@@ -36,7 +36,35 @@ export default function ProfileForm(props) {
       console.log(err);
     }
   }
+  const s3upload = async (event)=> {
+    console.log('event',event)
+    const file = event.target.files[0]
+    console.log('file',file)
+    const filename = file.name
+    const size = file.size
+    const type = file.type
+    const preview_image_url = URL.createObjectURL(file)
+    console.log(filename,size,type)
 
+    try {
+      console.log('s3upload')
+      const backend_url = ""
+      const res = await fetch(backend_url, {
+        method: "PUT",
+        body: file,
+        headers: {
+          'Content-Type': type
+        }})
+      let data = await res.json();
+      if (res.status === 200) {
+       console.log('presigned url',data)
+      } else {
+        console.log(res)
+      }
+    } catch (err) {
+      console.log(err);
+    }
+  }
   const onsubmit = async (event) => {
     event.preventDefault();
     try {
@@ -97,9 +125,11 @@ export default function ProfileForm(props) {
           </div>
           <div className="popup_content">
 
-            <div className="upload" onclick={s3upload}>
+            <div className="upload" onClick={s3uploadkey}>
               Upload Avatar
             </div>
+          <input type ="file" name="avatarupload" onChange={s3upload} />
+
             <div className="field display_name">
               <label>Display Name</label>
               <input
