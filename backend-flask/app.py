@@ -291,7 +291,6 @@ def data_users_short(handle):
 def health_check():
   return {'success': True}, 200
 
-
 @app.route("/api/profile/update", methods=['POST','OPTIONS'])
 @cross_origin()
 def data_update_profile():
@@ -314,7 +313,6 @@ def data_update_profile():
     # unauthenicatied request
     app.logger.debug(e)
     return {}, 401
-
 
 if __name__ == "__main__":
   app.run(debug=True)
