@@ -16,4 +16,4 @@ The following information outlines tasks that I've completed for Week 8 of the A
 
 6. **[Attempted to fix CORS for the API gateway](https://www.youtube.com/watch?v=eO7bw6_nOIc&t=389s)** by following Andrew's instructions in the linked video, and while the preflight optin is working fine, the CORS error to still appears in the console.
 
-7. **[Rendered the avatar from CloudFront](https://www.youtube.com/watch?v=xrFo3QLoBp8&t=16s)** by following Andrew's instructions in the linked video.
+7. **[Rendered the avatar](https://www.youtube.com/watch?v=xrFo3QLoBp8&t=16s)** by following Andrew's instructions in the linked video.
