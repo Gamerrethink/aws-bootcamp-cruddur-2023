@@ -6,4 +6,4 @@ The following information outlines tasks that I've completed for Week 9 of the A
 
 2. Setup CodeBuild and created a prod branch in GitHub.
 
-3. [Setup CodePipeline](https://www.youtube.com/watch?v=EAudiRT9Alw&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=83&pp=iAQB) by following Andrew's instructions in the linked video.
+3. **[Setup CodePipeline](https://www.youtube.com/watch?v=EAudiRT9Alw&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=83&pp=iAQB)** by following Andrew's instructions in the linked video.
