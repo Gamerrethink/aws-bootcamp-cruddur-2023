@@ -3,11 +3,11 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      docker: 19
+      docker: 20
     commands:
       - echo "cd into $CODEBUILD_SRC_DIR/backend-flask"
       - cd $CODEBUILD_SRC_DIR/backend-flask
-      - "aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin $IMAGE_URL"
+      - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin $IMAGE_URL
   build:
     commands:
       - echo Build started on `date`
@@ -18,29 +18,18 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image..
-      - "docker push $IMAGE_URL/$REPO_NAME"
+      - docker push $IMAGE_URL/$REPO_NAME
+      - cd $CODEBUILD_SRC_DIR
       - echo "imagedefinitions.json > [{\"name\":\"$CONTAINER_NAME\",\"imageUri\":\"$IMAGE_URL/$REPO_NAME\"}]" > imagedefinitions.json
       - printf "[{\"name\":\"$CONTAINER_NAME\",\"imageUri\":\"$IMAGE_URL/$REPO_NAME\"}]" > imagedefinitions.json
 
 env:
   variables:
     AWS_ACCOUNT_ID: 774490141131
+    AWS_DEFAULT_REGION:	us-east-1
     CONTAINER_NAME: backend-flask
     IMAGE_URL: 774490141131.dkr.ecr.us-east-1.amazonaws.com
     REPO_NAME: backend-flask:latest
-    AWS_COGNITO_USER_POOL_CLIENT_ID: 1smv1h31qdih3gphm1l2d63ov6
-    AWS_COGNITO_USER_POOL_ID:	us-east-1_lUadSyNhA
-    AWS_DEFAULT_REGION:	us-east-1
-    BACKEND_URL: "https://api.cruddr.click"
-    FRONTEND_URL: "https://cruddr.click"
-    OTEL_EXPORTER_OTLP_ENDPOINT: https://api.honeycomb.io
-    OTEL_SERVICE_NAME: backend-flask	
-  parameter-store:
-   AWS_ACCESS_KEY_ID: /cruddur/backend-flask/AWS_ACCESS_KEY_ID
-   AWS_SECRET_ACCESS_KEY: /cruddur/backend-flask/AWS_SECRET_ACCESS_KEY
-   CONNECTION_URL: /cruddur/backend-flask/CONNECTION_URL	
-   OTEL_EXPORTER_OTLP_HEADERS: /cruddur/backend-flask/OTEL_EXPORTER_OTLP_HEADERS
-   ROLLBAR_ACCESS_TOKEN: /cruddur/backend-flask/ROLLBAR_ACCESS_TOKEN
 artifacts:
   files:
     - imagedefinitions.json
