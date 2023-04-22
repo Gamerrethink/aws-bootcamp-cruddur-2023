@@ -3,6 +3,8 @@ set -e # stop if it fails at any point
 
 CFN_PATH="/workspace/aws-bootcamp-cruddur-2023/aws/cfn/template.yaml"
 
+cfn-lint CFN_PATH
+
 aws cloudformation deploy \
   --stack-name "my-cluster" \
   --template-file $CFN_PATH \
