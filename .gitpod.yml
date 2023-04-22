@@ -45,6 +45,7 @@ tasks:
     - name: cfn
       before: |
        pip install cfn-lint
+       cargo install cfn-guard
 vscode:
   extensions:
     - 42Crunch.vscode-openapi
