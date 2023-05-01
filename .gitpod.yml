@@ -46,6 +46,7 @@ tasks:
       before: |
        pip install cfn-lint
        cargo install cfn-guard
+       gem install cfn-toml
 vscode:
   extensions:
     - 42Crunch.vscode-openapi
