@@ -1,1 +1,5 @@
-
+# Toml file - contains paramters for CFN
+[deploy]
+bucket = 'cfn-artifact'
+region = 'us-east-1'
+stack_name = 'CrdSrvBackendFlask'
