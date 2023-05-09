@@ -22,6 +22,6 @@ The following information outlines tasks that I've completed for Week 10 of the 
 
    <img src=https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/assets/20970865/e7b332d5-34ad-4676-aa22-3ee6b68224fb width=800>
    
-8. The CFN cluster, which came up in ECS when executing the changeset for the service layer, wasn't quite working at first because the health check kept failing. Setting the port to 4567 in override when editing the CFN backend target group fixed the issue.
+8. The CFN cluster, which came up in ECS when executing the changeset for the service layer, wasn't quite working at first because the health check kept failing. Adjusting the health-check settings to Override Port 4567 in the backend-flask target group fixed the issue.
 
    <img src=https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/assets/20970865/76221bb5-43e1-4fa3-a255-a5b6fc0110c0 width=800>
