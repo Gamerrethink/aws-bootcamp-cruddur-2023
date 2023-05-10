@@ -14,6 +14,7 @@ STACK_NAME=$(cfn-toml key deploy.stack_name -t $CONFIG_PATH)
 aws cloudformation deploy \
   --stack-name $STACK_NAME \
   --s3-bucket $BUCKET --template-file "$CFN_PATH" \
+  --s3-prefix networking \
   --region $REGION \
   --no-execute-changeset \
   --tags group=cruddur-networking \
