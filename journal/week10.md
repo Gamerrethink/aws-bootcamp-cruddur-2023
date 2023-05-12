@@ -25,3 +25,9 @@ The following information outlines tasks that I've completed for Week 10 of the 
 8. The CFN cluster, which came up in ECS when executing the changeset for the service layer, wasn't quite working at first because the health check kept failing. Adjusting the health-check settings to Override Port 4567 in the backend-flask target group fixed the issue.
 
    <img src=https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/assets/20970865/76221bb5-43e1-4fa3-a255-a5b6fc0110c0 width=800>
+
+9. Updated the diagram to include service, RDS and DynamoDB related stuff.
+
+   <img src=https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/assets/20970865/9d3d9644-a2c8-4c4a-b025-42cd7c926751 width=800>
+
+10. Created and deployed a DynamoDB stack to CloudFormation.
