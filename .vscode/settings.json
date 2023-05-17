@@ -1,14 +1,18 @@
 {
-    "yaml.customTags": [
-  "!Equals sequence",
-  "!FindInMap sequence",
-  "!GetAtt",
-  "!GetAZs",
-  "!ImportValue",
-  "!Join sequence",
-  "!Ref",
-  "!Select sequence",
-  "!Split sequence",
-  "!Sub"
-    ]
+  "yaml.schemas":{
+    "/workspace/aws-bootcamp-cruddur-2023/aws/cfn/sync/template.yaml": "template.yaml",
+  },
+  "yaml.customTags": [
+"!Equals sequence",
+"!FindInMap sequence",
+"!GetAtt",
+"!GetAZs",
+"!If",
+"!ImportValue",
+"!Join sequence",
+"!Ref",
+"!Select sequence",
+"!Split sequence",
+"!Sub"
+  ]
 }
