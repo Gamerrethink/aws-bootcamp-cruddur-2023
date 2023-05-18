@@ -24,7 +24,7 @@ Resources:
     Type: AWS::CloudFormation::Stack
     Properties:
       TemplateURL: nested/codebuild.yaml
-    Parameters:
+      Parameters:
         ArtifactBucketName: !Ref ArtifactBucketName
         BuildSpec: !Ref BuildSpec
   CodeStarConnection:
