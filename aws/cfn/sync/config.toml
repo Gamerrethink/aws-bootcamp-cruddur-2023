@@ -1,0 +1,9 @@
+[deploy]
+bucket = 'cfn-artifact'
+region = 'us-east-1'
+stack_name = 'CrdSyncRole'
+
+[parameters]
+GitHubOrg = 'gamerrethink'
+RepositoryName = 'aws-bootcamp-cruddur-2023'
+OIDCProviderArn = ''

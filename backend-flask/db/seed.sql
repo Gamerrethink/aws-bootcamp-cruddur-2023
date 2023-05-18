@@ -3,6 +3,7 @@ VALUES
   ('Andrew Brown','andrew@exampro.co' , 'andrewbrown' ,'MOCK'),
   ('Andrew Bayko','bayko@exampro.co' , 'bayko' ,'MOCK'),
   ('Marquis Brown' , 'marquismb.mb@gmail.com' , 'awsbootcamp' , 'MOCK'),
+  ('Marquis' , 'marquismb@hotmail.com' , 'awsbootcampalt' , 'MOCK'),
   ('Londo Mollari','lmollari@centari.com' ,'londo' ,'MOCK');
 INSERT INTO public.activities (user_uuid, message, expires_at)
 VALUES
