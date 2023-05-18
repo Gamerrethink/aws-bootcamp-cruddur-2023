@@ -32,8 +32,23 @@ The following information outlines tasks that I've completed for Week 10 of the 
 
 10. Created and deployed a DynamoDB stack to CloudFormation.
 
+    <img src=https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/assets/20970865/c570963a-73e0-47d1-b172-b447e9be5d15 width=800>
+
 11. Created and deployed a frontend stack to CloudFormation.
+
+    <img src=https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/assets/20970865/455c5d5b-d5a4-4059-bc82-c08645dc7c1c width=800>
 
 12. Updated the diagram to include frontend stuff.
 
     <img src=https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/assets/20970865/8956bb05-2f40-4e5f-9ad6-f3e67d23883c width=800>
+    
+13. Built up a static frontend in gitpod alongside creating and deploying the sync role in CloudFormation.
+
+    <img src=https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/assets/20970865/6f677371-1e4b-4ce2-901e-d8fbc3cf8dc4 width=800>
+
+14. Reconnected the database and updated the [post confimation lambda](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-x-static-frontend/aws/lambdas/cruddur-post-confirmation.py).
+
+    <img src=https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/assets/20970865/0aa945c5-a897-4d64-9623-ac5b2159a952 width=800>
+
+
+
