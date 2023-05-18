@@ -1,7 +1,7 @@
 {
     "family": "backend-flask",
     "executionRoleArn": "arn:aws:iam::774490141131:role/CruddurServiceExecutionRole",
-    "taskRoleArn": "arn:aws:iam::774490141131:role/CruddurTaskRole",
+    "taskRoleArn": "arn:aws:iam::774490141131:role/CruddurServiceTaskRole",
     "networkMode": "awsvpc",
     "cpu": "256",
     "memory": "512",
