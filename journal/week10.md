@@ -32,6 +32,8 @@ The following information outlines tasks that I've completed for Week 10 of the 
 
 10. Created and deployed a DynamoDB stack to CloudFormation.
 
-11. Updated the diagram to include frontend stuff.
+11. Created and deployed a frontend stack to CloudFormation.
+
+12. Updated the diagram to include frontend stuff.
 
     <img src=https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/assets/20970865/8956bb05-2f40-4e5f-9ad6-f3e67d23883c width=800>
