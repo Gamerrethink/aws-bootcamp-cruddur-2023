@@ -50,13 +50,13 @@ The following information outlines tasks that I've completed for Week 10 of the 
 
     <img src=https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/assets/20970865/0aa945c5-a897-4d64-9623-ac5b2159a952 width=800>
 
-15. Updated the [config.toml file](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-x-static-frontend/aws/cfn/service/config.toml) in aws/cfn/service and the [service file](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-x-static-frontend/bin/cfn/service) in bin/cfn to fix the CORS issue.
+15. Updated the [config.toml file](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-x-refactoring/aws/cfn/service/config.toml) in aws/cfn/service and the [service file](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-x-refactoring/bin/cfn/service) in bin/cfn to fix the CORS issue.
 
 16. Fixed up the CI/CD pipeline for CFN which is now fully working.
 
     <img src=https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/assets/20970865/e6df7c2c-9eb2-41e7-93b5-ff196c94930e width=800>
 
-17. Refractored [cognito_jwt_token.py](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-x-static-frontend/backend-flask/lib/cognito_jwt_token.py) to use a decorator.
+17. Refractored [cognito_jwt_token.py](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-x-refactoring/backend-flask/lib/cognito_jwt_token.py) to use a decorator.
 
-
+18. Refactored flask and [app.py](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-x-refactoring/backend-flask/app.py). Created new files inside the [backend-flask/llb](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/tree/week-x-refactoring/backend-flask/lib) folder and created a new [backend-flask/routes](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/tree/week-x-refactoring/backend-flask/routes) folder alongside some files.
 
