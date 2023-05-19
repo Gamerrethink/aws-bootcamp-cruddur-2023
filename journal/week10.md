@@ -60,5 +60,5 @@ The following information outlines tasks that I've completed for Week 10 of the 
 
 18. Refactored flask and [app.py](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-x-refactoring/backend-flask/app.py). Created new files inside the [backend-flask/llb](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/tree/week-x-refactoring/backend-flask/lib) folder and created a new [backend-flask/routes](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/tree/week-x-refactoring/backend-flask/routes) folder alongside some files.
 
-19. Watched [Ashish's Amazon CloudFormation Security Best Practices](https://www.youtube.com/watch?v=ctYnoDo5tWE&t=703s) video.
+19. Watched **[Ashish's Amazon CloudFormation Security Best Practices](https://www.youtube.com/watch?v=ctYnoDo5tWE&t=703s)** video.
 
