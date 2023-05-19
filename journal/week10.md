@@ -56,7 +56,7 @@ The following information outlines tasks that I've completed for Week 10 of the 
 
     <img src=https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/assets/20970865/e6df7c2c-9eb2-41e7-93b5-ff196c94930e width=800>
 
-
+17. Refractored [cognito_jwt_token.py](https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/blob/week-x-static-frontend/backend-flask/lib/cognito_jwt_token.py) to use a decorator.
 
 
 
