@@ -1,0 +1,6 @@
+# Example toml file - contains parameters for CFN
+
+[deploy]
+bucket = ''
+region = ''
+stack_name = ''
