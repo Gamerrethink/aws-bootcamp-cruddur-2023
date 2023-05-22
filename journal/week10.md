@@ -30,7 +30,7 @@ The following information outlines tasks that I've completed for Week 10 of the 
 
 10. Updated the diagram to include service, RDS and DynamoDB related stuff.
 
-   <img src=https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/assets/20970865/9d3d9644-a2c8-4c4a-b025-42cd7c926751 width=800>
+    <img src=https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/assets/20970865/9d3d9644-a2c8-4c4a-b025-42cd7c926751 width=800>
 
 11. Created and deployed a DynamoDB stack to CloudFormation.
 
@@ -40,6 +40,6 @@ The following information outlines tasks that I've completed for Week 10 of the 
 
     <img src=https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/assets/20970865/455c5d5b-d5a4-4059-bc82-c08645dc7c1c width=800>
 
-13. Updated the diagram to include frontend stuff.
+13. Updated the diagram to include frontend and CI/CD stuff.
 
     <img src=https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/assets/20970865/8956bb05-2f40-4e5f-9ad6-f3e67d23883c width=800>   
