@@ -28,3 +28,5 @@
     `ALTER TABLE activities ADD COLUMN reply_to_activity_uuid uuid;`
     
     <img src=https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/assets/20970865/a6fc4e17-3d56-47d9-8ce7-0c7c174faedb width=800>
+
+8. Refactored the error handling and fetch requests.
