@@ -2,26 +2,26 @@ import './SigninPage.css';
 import React from "react";
 import {ReactComponent as Logo} from '../components/svg/logo.svg';
 import { Link } from "react-router-dom";
+import FormErrors from 'components/FormErrors';
 
-// [TODO] Authenication
-import { Auth } from 'aws-amplify'; // AWS Cognito
+import { Auth } from 'aws-amplify';
 
 export default function SigninPage() {
 
-  const [email, setEmail] = React.useState(''); //removed for aws cogito
-  const [password, setPassword] = React.useState(''); //removed for aws cogito
-  const [errors, setErrors] = React.useState(''); 
-// AWS Cognito
+  const [email, setEmail] = React.useState('');
+  const [password, setPassword] = React.useState('');
+  const [errors, setErrors] = React.useState('');
+
   const onsubmit = async (event) => {
-    setErrors('')
     event.preventDefault();
+    setErrors('')
     Auth.signIn(email, password)
-      .then(user => {
-        console.log('user',user)
-        localStorage.setItem("access_token", user.signInUserSession.accessToken.jwtToken)
-        window.location.href = "/"
-      })
-      .catch(error => {
+    .then(user => {
+      console.log('user',user)
+      localStorage.setItem("access_token", user.signInUserSession.accessToken.jwtToken)
+      window.location.href = "/"
+    })
+    .catch(error => { 
       if (error.code === 'UserNotConfirmedException') {
         window.location.href = "/confirm"
       }
@@ -29,34 +29,12 @@ export default function SigninPage() {
     });
     return false
   }
-    
-  // just before submit component
- 
-
-  /* Removed for AWS Cognito
-  const onsubmit = async (event) => {
-    event.preventDefault();
-    setErrors('')
-    console.log('onsubmit')
-    if (Cookies.get('user.email') === email && Cookies.get('user.password') === password){
-      Cookies.set('user.logged_in', true)
-      window.location.href = "/"
-    } else {
-      setErrors("Email and password is incorrect or account doesn't exist")
-    }
-    return false
-  } */
 
   const email_onchange = (event) => {
     setEmail(event.target.value);
   }
   const password_onchange = (event) => {
     setPassword(event.target.value);
-  }
-
-  let el_errors;
-  if (errors){
-    el_errors = <div className='errors'>{errors}</div>;
   }
 
   return (
@@ -88,7 +66,7 @@ export default function SigninPage() {
               />
             </div>
           </div>
-          {el_errors}
+          <FormErrors errors={errors} />
           <div className='submit'>
             <Link to="/forgot" className="forgot-link">Forgot Password?</Link>
             <button type='submit'>Sign In</button>
