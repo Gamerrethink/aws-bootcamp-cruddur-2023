@@ -34,3 +34,5 @@
 9. Refactored the Activity Show page. 
 
 10. Did some cleanup alongside implementing timezone fixes.
+
+11. Did some more cleanup on the frontend side of things alongside fixing an issue related to messaging that took a ton of troubleshooting.
