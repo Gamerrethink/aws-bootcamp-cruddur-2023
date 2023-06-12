@@ -36,3 +36,6 @@
 10. Did some cleanup alongside implementing timezone fixes.
 
 11. Did some more cleanup on the frontend side of things alongside fixing an issue related to messaging that took a ton of troubleshooting.
+
+    <img src=https://github.com/Gamerrethink/aws-bootcamp-cruddur-2023/assets/20970865/fb8cd01e-f7c3-477d-a7e8-fedbc97aabb4 width=800>
+
