@@ -3,12 +3,11 @@ import { Link } from "react-router-dom";
 import { format_datetime, message_time_ago } from '../lib/DateTimeFormats';
 
 export default function MessageItem(props) {
-
   return (
     <div className='message_item'>
       <Link className='message_avatar' to={`/messages/@`+props.message.handle}></Link>
       <div className='message_content'>
-        <div className='message_meta'>
+        <div classsName='message_meta'>
           <div className='message_identity'>
             <div className='display_name'>{props.message.display_name}</div>
             <div className="handle">@{props.message.handle}</div>

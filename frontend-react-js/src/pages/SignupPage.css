@@ -48,7 +48,7 @@ article.signup-article input[type='password'] {
   width: 100%;
   padding: 16px;
   border: solid 1px var(--field-border);
-  background: var(--field-bg);
+  background: #1f1f1f;
   color: #fff;
 }
 
@@ -110,13 +110,4 @@ article.signup-article button[type='submit'] {
   color: rgba(149,0,255,1);
   text-decoration: none;
   font-weight: 600;
-}
-
-.errors {
-  padding: 16px;
-  border-radius: 8px;
-  background: rgba(255,0,0,0.3);
-  color: rgb(255,255,255);
-  margin-top: 16px;
-  font-size: 14px;
 }
